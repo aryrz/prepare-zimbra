@@ -2,7 +2,7 @@
 clear
 
 echo -e "##########################################################################"
-echo -e "#               edited by: Harry Arz			                                #"
+echo -e "#               edited by: Harry Arz			                  #"
 echo -e "#If there any question about this script, feel free to contact me below  #"
 echo -e "##########################################################################"
 
