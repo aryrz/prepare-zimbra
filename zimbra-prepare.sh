@@ -33,7 +33,7 @@ echo -e "[INFO] : Configuring /etc/hosts"
 echo ""
 echo -n "Hostname. Example mail : "
 read HOSTNAME
-echo -n "Domain name. Example imanudin.net : "
+echo -n "Domain name. Example example.com : "
 read DOMAIN
 echo -n "IP Address : "
 read IPADDRESS
