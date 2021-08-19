@@ -2,7 +2,7 @@
 clear
 
 echo -e "##########################################################################"
-echo -e "#               edited by: Harry Arz			                                #"
+echo -e "#               edited by Harry Arz                                      #"
 echo -e "#If there any question about this script, feel free to contact me below  #"
 echo -e "##########################################################################"
 
@@ -60,7 +60,7 @@ systemctl disable postfix
 
 yum update -y
 yum upgrade -y
-yum install yum-utils yum-priorities screen subversion curl zip unzip bind-utils yum-priorities vim curl zip unzip wget ftp htop iptraf iftop mlocate git net-tools iotop atop -y
+yum install yum-utils yum-priorities screen subversion curl zip unzip bind bind-utils yum-priorities vim curl zip unzip wget ftp htop iptraf iftop mlocate rsync elinks openssh-clients openssh-server bind bind-utils unzip nmap sed nc git net-tools iotop atop -y
 
 # Restart Network
 service network restart
