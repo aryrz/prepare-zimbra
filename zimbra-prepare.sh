@@ -16,7 +16,6 @@ read presskey
 
 echo -e "[INFO] : Configuring Firewall & Selinux"
 sleep 2
-yum install yum-utils yum-priorities screen subversion curl zip unzip bind-utils yum-priorities vim curl zip unzip wget ftp htop iptraf iftop mlocate git net-tools iotop atop -y
 sed -i s/'SELINUX='/'#SELINUX='/g /etc/selinux/config
 echo 'SELINUX=disabled' >> /etc/selinux/config
 setenforce 0
@@ -61,7 +60,7 @@ systemctl disable postfix
 
 yum update -y
 yum upgrade -y
-yum -y install perl perl-core wget screen w3m elinks openssh-clients openssh-server bind bind-utils unzip nmap sed nc sysstat libaio rsync telnet aspell net-tools
+yum install yum-utils yum-priorities screen subversion curl zip unzip bind-utils yum-priorities vim curl zip unzip wget ftp htop iptraf iftop mlocate git net-tools iotop atop -y
 
 # Restart Network
 service network restart
